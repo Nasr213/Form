@@ -19,43 +19,43 @@
       <div class="card-body d-flex flex-column justify-content-center">
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="nom" id="nom" class="form-label">Votre nom</label>
-          <input type="text" class="form-control w-auto " pattern="[a-zA-Z]+" name="nom" id="nom"
+          <input type="text" class="ml-2 form-control w-auto " pattern="[a-zA-Z]+" name="nom" id="nom"
             placeholder="Votre nom ?" required>
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
-          <label for="Prenom" class="form-label">Votre penom</label>
-          <input type="text" class="form-control w-auto " pattern="[a-zA-Z]+" name="prenom" id="prenom"
+          <label for="Prenom" class="form-label">Votre prenom</label>
+          <input type="text" class="ml-2 form-control w-auto " pattern="[a-zA-Z]+" name="prenom" id="prenom"
             placeholder="Votre prenom ?" required>
         </div>
         <div class="mb-3 d-inline-flex justify-content-center fl ">
           <label for="age" class="form-label">Votre age</label>
-          <input type="text" class="form-control w-auto " name="age" pattern="[0-9]{2}" id="age"
+          <input type="text" class="ml-2 form-control w-auto " name="age" pattern="[0-9]{2}" id="age"
             placeholder="Votre age ?">
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="dtn" class="form-label">Date naissance</label>
-          <input type="date" class="form-control w-auto " name="date" id="dtn">
+          <input type="date" class="ml-2 form-control w-auto " name="date" id="dtn">
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="adresse" class="form-label">Votre adresse</label>
-          <textarea id="adr" class="form-control w-auto" rows="2" name="adresse"
+          <textarea id="adr" class="ml-2 form-control w-auto" rows="2" name="adresse"
             placeholder="Votre adresse ?"></textarea>
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="url" class="form-label">Votre url</label>
-          <input type="text" class="form-control w-auto " name="url" id="url" placeholder="Votre url?">
+          <input type="text" class="ml-2 form-control w-auto " name="url" id="url" placeholder="Votre url?">
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="email" class="form-label">Votre email</label>
-          <input type="email" class="form-control w-auto " name="email" id="email" placeholder="Votre email?" required>
+          <input type="email" class="ml-2 form-control w-auto " name="email" id="email" placeholder="Votre email?" required>
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="mdp" class="form-label">Mot de passe</label>
-          <input type="password" class="form-control w-auto " placeholder="Password" name="mdp" id="mdp" required>
+          <input type="password" class="ml-2 form-control w-auto " placeholder="Password" name="mdp" id="mdp" required>
         </div>
         <div class="mb-3 d-inline-flex justify-content-center ">
           <label for="vmdp" class="form-label">Retapez votre Mot de passe</label>
-          <input type="password" class="form-control w-auto " placeholder="Password" name="vmdp" id="vmdp" required>
+          <input type="password" class="ml-2 form-control w-auto " placeholder="Password" name="vmdp" id="vmdp" required>
         </div>
       </div>
     </div>
@@ -81,18 +81,17 @@
         </div>
         <div class="mb-3 d-inline-flex justify-content-center">
           <label for="number" class="form-label">Numero de carte d'etudiant</label>
-          <input type="text" class="form-control w-auto " pattern="^[0-9]{8}" name="CarteE" id="NCart"
+          <input type="text" class="form-control w-auto ml-2 " pattern="^[0-9]{8}" name="CarteE" id="NCart"
             placeholder="Numero de carte d'etudiant?">
         </div>
         <div class="d-inline-flex justify-content-center">
           <label for="floatingSelect">Choisissez les options due vous desirez</label>
-          <select class="form-select form-control w-auto " id="floatingSelect"
+          <select name=option  multiple class="form-select form-control w-auto ml-2" id="floatingSelect"
             aria-label="Floating label select example">
-            <option selected>Votre choix ?</option>
-            <option name=option value="Html5">Html5</option>
-            <option name=option value="Android">Android</option>
-            <option name=option value="Flex">Flex</option>
-            <option name=option value=".Net">.Net</option>
+            <option value="Html5">Html5</option>
+            <option value="Android">Android</option>
+            <option  value="Flex">Flex</option>
+            <option  value=".Net">.Net</option>
           </select>
         </div>
 
